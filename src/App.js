@@ -65,14 +65,13 @@ return (
 
 
 <Grid
-  h='500px'
+  h='50rem'
   templateRows='repeat(2, 1fr)'
   templateColumns='repeat(5, 1fr)'
-  gap={10}
-  justifyContent="center"
+  gap={50}
 >
   <GridItem rowSpan={2} colSpan={1} bg='purple.400' />
-  <GridItem colSpan={4} bg='tomato' mt="50px" w="70%">
+  <GridItem colSpan={4} bg='tomato' mt="10rem" ml="auto" mr="auto" w="70%">
   <Card>
     <form>
     {inputs.map((input) => (
